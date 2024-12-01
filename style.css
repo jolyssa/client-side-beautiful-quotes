@@ -1,0 +1,39 @@
+* {
+    font-family: "Noto Serif", serif;
+}
+
+body {
+    text-align: center;
+}
+
+input, a {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background: rgb(252, 246, 238);
+}
+
+a{
+    background: #f0b7b7;
+}
+
+input {
+    font-size: 16px;
+}
+#name, #type, #quote {
+    font-family: "Diphylleia", serif !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.showQuote {
+    margin-top: 50px;
+    text-align: center;
+    background: url(/img/paper.jpg);
+    padding: 2rem 0;
+    color: rgba(18, 17, 17, 0.913);
+}
+
+

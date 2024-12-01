@@ -3,19 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Favourite Book Quotes!!!!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>    
     <body>
-    <h1>Favourite Book Quotes Quotes!!!!</h1>
+        <h1>My Favourite Book Quotes</h1>
 
-    <h2>Get a random quote from my favourite quotes!</h2>
-    <input placeholder="Enter artist name" type="text">
-    <button>Click Here for Quote</button>
-    <h3 id="name"></h3>
-    <h4 id="type"></h4>
-    <p id="quote"></p>
-    
+        <h2>Get a random quote from my favourite quotes!</h2>
+        <h3>Artists Available:</h3>
+        <p>Heidi Priebe, Henri Nouwen, Kimbra, Socrates, Tori Morrison, William Shakespeare, Unknown</p>
+        <input placeholder="Enter artist name" type="text">
+        <a class="button">Click Here for Quote</a>
 
-
-    <script src="index.js"></script>
+        <div class="showQuote hidden">
+            <h3 id="name"></h3>
+            <h4 id="type"></h4>
+            <p id="quote"></p>
+        </div>
+        
+        <script src="index.js"></script>
     </body>
 </html>
